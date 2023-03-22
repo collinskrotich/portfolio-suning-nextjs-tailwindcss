@@ -15,7 +15,14 @@ const Contact = () => {
             <div>
                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src = '/../professor.webp'></img>
             </div>
-
+            <div>
+                <h2 className='py-2'>Collins Rotich</h2>
+                <p>Full-Stack Developer</p>
+                <p>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+            </div>
+        </div>
+        <div>
+            <p className='uppercae pt-8'>Connect With Me</p>
         </div>
 
     </div>
