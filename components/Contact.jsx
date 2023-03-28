@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
@@ -17,7 +18,9 @@ const Contact = () => {
     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4' >
         <div className='lg:p-4 h-full'>
                 <div>
-                    <img className='rounded-xl hover:scale-105 ease-in duration-300' src = '/../professor.webp'></img>
+                    <Image className='rounded-xl hover:scale-105 ease-in duration-300' src = '/../professor.webp' alt='professor'>
+
+                    </Image>
                 </div>
                 <div>
                     <h2 className='py-2'>Collins Rotich</h2>
