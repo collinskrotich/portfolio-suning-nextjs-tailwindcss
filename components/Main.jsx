@@ -18,7 +18,7 @@ const Main = () => {
                         A Full-Stack Software Engineer
                         </h1>
                         <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                           {"I'm a full-stack software engineer and consultant specializing in building exceptional digital experiences in the Internet of Things(IoT) space."}
+                           {"I'm a full-stack cloud-native engineer and consultant specializing in building exceptional digital experiences in the Internet of Things(IoT) space."}
                             {"Currently focused on building responsive IoT applications using serverless technologies on the cloud."} 
                         </p>
                         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
