@@ -15,7 +15,7 @@ const Main = () => {
                         {"Hi, I'm"} <span className="text-[#4682B4]">Collins</span>
                         </h1>
                     <h1 className="py-2 text-gray-700" >
-                        A Full-Stack Software Engineer
+                        A Full-Stack Cloud-native Engineer
                         </h1>
                         <p className="py-4 text-gray-600 max-w-[70%] m-auto">
                            {"I'm a full-stack cloud-native engineer and consultant specializing in building exceptional digital experiences in the Internet of Things(IoT) space."}
