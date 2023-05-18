@@ -9,7 +9,7 @@ const Main = () => {
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <p 
-                    className="uppercase text-sm tracking-widest text-gray-600">CLOUD | SERVERLESS | IOT
+                    className="uppercase text-sm tracking-widest text-gray-600">IOT | CLOUD | SERVERLESS
                     </p>
                     <h1 className="py-4 text-gray-700">
                         {"Hi, I'm"} <span className="text-[#4682B4]">Collins</span>
@@ -22,18 +22,29 @@ const Main = () => {
                             {"Currently focused on building responsive IoT applications using cloud technologies."} 
                         </p>
                         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                            <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <FaLinkedinIn/>
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <FaGithub/>
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <AiOutlineMail/>
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <BsFillPersonLinesFill/>
-                            </div>
+                            
+                        <a href='https://www.linkedin.com/in/collins-rotich/' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>                                  
+                                    <FaLinkedinIn/>                                 
+                                </div>
+                        </a>
+
+                        <a href='https://github.com/collinskrotich' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <FaGithub/>
+                                </div>
+                        </a>
+                        <a href='mailto:collinsrotich001@gmail.com' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <AiOutlineMail/>
+                                </div>
+                        </a>
+
+                        <a href='tel:+254712036043' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <BsFillPersonLinesFill/>
+                                </div>
+                        </a>
 
                         </div>
                 </div>
