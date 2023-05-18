@@ -28,18 +28,29 @@ const Contact = () => {
         <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn/>
+
+                        <a href='https://www.linkedin.com/in/collins-rotich/' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>                                  
+                                    <FaLinkedinIn/>                                 
                                 </div>
+                        </a>
+
+                        <a href='https://github.com/collinskrotich' target="_blank" rel="noopener noreferrer">
                                 <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub/>
                                 </div>
+                        </a>
+                        <a href='mailto:collinsrotich001@gmail.com' target="_blank" rel="noopener noreferrer">
                                 <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <AiOutlineMail/>
                                 </div>
+                        </a>
+
+                        <a href='tel:+254712036043' target="_blank" rel="noopener noreferrer">
                                 <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <BsFillPersonLinesFill/>
                                 </div>
+                        </a>
                             
                 </div>
         </div>

@@ -25,7 +25,7 @@ const About = () => {
                 </p>
 
                 <p className='py-2'>
-                    I am now spending my time learning serverless and building event-driven software applications on cloud(AWS, GCP, Azure).
+                    I am now spending my time building software applications on the cloud(AWS, GCP, Azure).
                 </p>
 
                 <p className='py-2 underline cursor-pointer'>

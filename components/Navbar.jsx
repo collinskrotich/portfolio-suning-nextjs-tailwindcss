@@ -121,18 +121,29 @@ const Navbar = () => {
                     <div className='pt-40'>
                         <p className='uppercase tracking-widest text-[#5651e4]'>{"Let's Connect"}</p>
                     <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaLinkedinIn/>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaGithub/>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <AiOutlineMail/>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <BsFillPersonLinesFill/>
-                        </div>
+                        
+                    <a href='https://www.linkedin.com/in/collins-rotich/' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>                                  
+                                    <FaLinkedinIn/>                                 
+                                </div>
+                        </a>
+
+                        <a href='https://github.com/collinskrotich' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <FaGithub/>
+                                </div>
+                        </a>
+                        <a href='mailto:collinsrotich001@gmail.com' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <AiOutlineMail/>
+                                </div>
+                        </a>
+
+                        <a href='tel:+254712036043' target="_blank" rel="noopener noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <BsFillPersonLinesFill/>
+                                </div>
+                        </a>
                     
                     </div>
                     </div>
