@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectItems from './ProjectItems'
-import todolistproj from '../public/to-do-list.png'
+import temptagproj from '../public/temptag.png'
+import airqualityproj from '../public/airquality.png'
 
 const Projects = () => {
   return (
@@ -10,24 +11,14 @@ const Projects = () => {
             <h2 className='py-4'>{"What I've Built"}</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItems 
-                  title="Serverless To Do App"
-                  backgroundImg={todolistproj}
-                  projectUrl='/property'               
+                  title="Temperature Tag IOT App"
+                  backgroundImg={temptagproj}
+                  projectUrl='/temptag'               
                 />
                 <ProjectItems 
-                  title="Serverless To Do App"
-                  backgroundImg={todolistproj}
-                  projectUrl='/property'               
-                />
-                <ProjectItems 
-                  title="Serverless To Do App"
-                  backgroundImg={todolistproj}
-                  projectUrl='/property'               
-                />
-                <ProjectItems 
-                  title="Serverless To Do App"
-                  backgroundImg={todolistproj}
-                  projectUrl='/property'               
+                  title="Air Quality IOT App"
+                  backgroundImg={airqualityproj}
+                  projectUrl='/airquality'               
                 />
 
             </div>
